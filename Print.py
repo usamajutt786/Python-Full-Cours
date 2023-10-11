@@ -21,3 +21,5 @@ print((12,23,433,4,5,3,"Touple"));  #set
 #there is no need to write data type woth the variable
 name="usama"
 print(name)
+age=45; gender="Male"
+print(age,gender)
