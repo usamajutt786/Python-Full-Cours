@@ -17,3 +17,7 @@ print(23.3);
 print([12,23,34,45,6])  #list
 print({"Name":"Usama","Age":23,"Class":" SE"})   #Dictionary
 print((12,23,433,4,5,3,"Touple"));  #set
+#################### Variables ##############
+#there is no need to write data type woth the variable
+name="usama"
+print(name)
