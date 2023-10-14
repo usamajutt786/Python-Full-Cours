@@ -1,2 +1,2 @@
-# today we will discuss about build in funtions 
-print("Hello")
+#Slicing of string 
+#get  multiple charactors at a time is called slicing 
