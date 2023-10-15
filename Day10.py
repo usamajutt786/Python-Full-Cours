@@ -32,4 +32,3 @@ result = calculate(operation, a, b)
 
 # Print the result
 print(f"{a} {operation} {b} = {result}")
-print("This is the ans")
