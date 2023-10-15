@@ -16,3 +16,4 @@ y=x
 z=y
 #print(sys.getrefcount(a))
 #SystemExit
+print("Hello")
