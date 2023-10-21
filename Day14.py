@@ -18,11 +18,26 @@
 #         return num*fac(num-1)
     
 # print(fac(number))    
-number=int(input("Enter the number:"))
-def fib(num):
-    if num<=1:
-        return num
+# number=int(input("Enter the number:"))
+# def fib(num):
+#     if num<=1:
+#         return num
+#     else:
+#         return fib(num-1)+fib(num-2)
+# print(fib(number))    
+
+#checking number for palindrom
+
+def pal(a):
+    if len(a)<=1:
+        print("its a plindrom")
     else:
-        return fib(num-1)+fib(num-2)
-print(fib(number))    
+        if a[0]==a[-1]:
+            pal(a[1:-1])
+        else:
+            print("its not a plaindrom")
+#num=input("Enter the string : ")
+pal("Usama")
+pal("maam")            
+
 
